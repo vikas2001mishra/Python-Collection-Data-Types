@@ -7,9 +7,10 @@
 
 
 #  1.Lists:
-       . Mutable
+       • Mutable
        • To hold sequence of values like Age, Gender etc
        • To create lists we need square brackets - []
+       • collection items of multiple datatypes
 
 
 # 1. 
@@ -56,7 +57,7 @@ print(list)
 
 
 # Append Method: 
-        .Can be a single value or a list, list will append as list of list
+        •Can be a single value or a list, list will append as list of list
 
 
 marks = [33,45,67,89,98]
@@ -87,7 +88,7 @@ print(Name)
 
 
 # Copy Method: 
-        A new copy created
+        •A new copy created
 
 
 Name = ['AAA','WWW','QQQ']
@@ -98,7 +99,7 @@ print(Name)
 
 
 # COUNT Method: 
-        That means if 11 is written three times in the list below then the output will also be 3.
+        •That means if 11 is written three times in the list below then the output will also be 3.
 
 
 Number = [11,33,55,11,77,11,99,67]
@@ -109,7 +110,7 @@ print(c)
 
 
 # Extend Method:
-           Always be a list but save as individual elements
+           •Always be a list but save as individual elements
 
 
 
@@ -129,7 +130,7 @@ print(i)
 
 
 # Insert Method:
-         Insert the records at any position using index
+         •Insert the records at any position using index
 
 
 Number = [11,33,55,11,77,11,99,67]
@@ -139,8 +140,8 @@ print(Number)
 
 
 # Pop method:
-       Pop removes the last value from the list if index not provided. 
-       Else, it will remove the value of the index provided.
+       •Pop removes the last value from the list if index not provided. 
+        Else, it will remove the value of the index provided.
 
 
 
@@ -155,7 +156,7 @@ print(Number)
 
 
 # Remove Method:
-            Remove removes the value given in the command
+            •Remove removes the value given in the command
 
 
 n = [11,33,55,11,77,11,99,67]
@@ -167,7 +168,7 @@ print(n)
 
 
 # Reverse Method:
-         Just reverse the list, no sorting
+         •Just reverse the list, no sorting
 
 
 
@@ -178,7 +179,7 @@ print(Number)
 
 
 # Sort Method:
-         Sort ascending order
+         •Sort ascending order
 
 
 
@@ -201,14 +202,14 @@ print(s)
 
 # 2. Tuple:
     
-     . Tuple are immutable, i.e., they can't be changed
+     • Tuple are immutable, i.e., they can't be changed
      • Tuple are faster than list
-     . Tuples are used to store multiple items in a single variable.
-     . Tuples are written with round brackets ().
-     . collections of heterogeneous.(Tuples are a sequence of data of different data types 
+     • Tuples are used to store multiple items in a single variable.
+     • Tuples are written with round brackets ().
+     • collections of heterogeneous.(Tuples are a sequence of data of different data types 
        (like integer, float, list, string, etc;) and can be accessed through indexing and slicing.)
 
-      . Contains duplicate: Allows duplicates data.
+      • Contains duplicate: Allows duplicates data.
 
 
 
@@ -264,10 +265,10 @@ for fruit in fruits:
 
 
 # 3. Dictionary:
-        . Dictionary are used to store data value in key : value Pairs.
-        . Unordered: The items in dict are stored without any index value.
-        . Unique: Keys in dictionaries should be Unique.
-        . Mutable: We can add/Modify/Remove key-value after the creation.
+        • Dictionary are used to store data value in key : value Pairs.
+        • Unordered: The items in dict are stored without any index value.
+        • Unique: Keys in dictionaries should be Unique.
+        • Mutable: We can add/Modify/Remove key-value after the creation.
 
 
 
@@ -356,10 +357,10 @@ print(myvar)
 
 
 # 4. Set:
-     .Unordered: Set doesn't maintain the order of the data insertion.
-     .Unchangeable: Set are immutable and we can't modify items.
-     .Heterogeneous: Set can contains data of all types
-     .Unique: Set doesn't allows duplicates items
+     •Unordered: Set doesn't maintain the order of the data insertion.
+     •Unchangeable: Set are immutable and we can't modify items.
+     •Heterogeneous: Set can contains data of all types
+     •Unique: Set doesn't allows duplicates items
 
 
 
