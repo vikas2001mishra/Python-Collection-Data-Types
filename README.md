@@ -69,7 +69,7 @@ print(marks)
 
 Name = ['AAA','WWW','QQQ']
 Name.append('Numbers')
-print(Name)'''
+print(Name)
 
 # Or.
 
